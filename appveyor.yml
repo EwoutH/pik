@@ -8,5 +8,5 @@ build:
   project: pik.sln
   
 artifacts:
-    - path: $(target)\Release\*.*
+    - path: bin\Release\*.*
       name: $(APPVEYOR_PROJECT_NAME)-$(target)
