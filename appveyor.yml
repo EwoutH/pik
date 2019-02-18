@@ -1,0 +1,12 @@
+image: Visual Studio 2017
+configuration: Release
+
+before_build:
+ - cmake .
+
+build:
+  project: pik.sln
+  
+artifacts:
+    - path: $(target)\Release\*.*
+      name: $(APPVEYOR_PROJECT_NAME)-$(target)
