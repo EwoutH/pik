@@ -1,6 +1,7 @@
 # PIK
 
-[![Build status][build-status-img]][build-status]
+[![Build status][build-status-img]][build-status] 
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/google/pik?branch=master&svg=true)](https://ci.appveyor.com/project/google/pik)
 
 PIK is a well-rounded image format for photos and the internet.
 
