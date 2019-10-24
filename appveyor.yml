@@ -3,7 +3,7 @@ configuration: Release
 
 install:
     - git submodule update --init
-    - export CC=clang CXX=clang++
+    - set CC=clang CXX=clang++
     - cmake .
 
 build:
