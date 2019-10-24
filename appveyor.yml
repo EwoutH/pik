@@ -3,7 +3,8 @@ configuration: Release
 
 install:
     - git submodule update --init
-    - cmake . -A x64
+    - export CC=clang CXX=clang++
+    - cmake .
 
 build:
   project: pik.sln
